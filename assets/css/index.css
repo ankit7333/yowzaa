@@ -1,0 +1,377 @@
+/* section 2 css */
+.playbtn{
+    background-color:#157BF2CC;
+    width:80px;
+    height:80px;
+    border:10px solid #CFE5FF;
+    border-radius:50%;
+    z-index:1;
+}
+.video--overlay::after{
+    content:'';
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.25);
+}
+.playbtn--img{
+    width:20px;
+    height:20px;
+    background-image:url(../images/play.png);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    cursor:pointer;
+}
+/* section 3 css*/
+.downloadapp{
+    border-radius:10px;
+    box-shadow:0px 6px 12px rgba(0, 0, 0, 0.25);
+    background-color:#157BF2;
+    height:100px;
+    width:528px;
+    padding:15px;
+    z-index:1;
+}
+.downloadapp__left{
+    font-size:20px;
+    color:var(--bs-white);
+}
+.downloadapp__right{
+    border:1px solid #157BF2;
+    box-shadow:0px 12px 24px rgba(0, 0, 0, 0.25);
+    border-radius:20px;
+    height:42.5px;
+    width:300px;
+}
+.downloadapp__right .form-control, .downloadapp__right .input-group-text{
+    padding:0 5px !important;
+    border-color:var(--bs-white);
+    background-color:var(--bs-white);
+    border:none;
+}
+.downloadapp__right .input-group-text{
+    border-radius:20px 0 0 20px;
+    line-height:5px;
+}
+.downloadapp__right .form-control{
+    min-height:100% !important;
+    height:100%;
+    border-radius:0 20px 20px 0;
+}
+.downloadapp__right .form-control:focus{
+    border-color:var(--bs-white);
+    box-shadow:none;
+}
+.btn--getapplink{
+    color:var(--bs-white);
+    background-color:#2FBF0A;
+    border-radius:0px 20px 20px 0px;
+    border:none;
+    transform:scale(1.1);
+    height:100%;
+}
+.btn--getapplink:hover{
+    background-color:#2FBF0A;
+    border:none;
+}
+#section__3{
+    background-image:url(../images/green_blue_geometric_sports_football_banner.png);
+    padding:90px 40px;
+}
+.carousel-item-div{
+    height:460px;
+}
+.carousel-item-div .img-thumbnail, .carousel-item-div{
+    border:0;
+}
+.carousel-item-div img{
+    border-radius:10px;
+    height:100%;
+}
+#section__3 .card{
+    margin:0 15px;
+    border:0;
+}
+.carousel-item-div h5{
+    font-size:24px;
+    background-color:rgba(0,0,0,0.5);
+    color:var(--bs-white);
+    padding:10px;
+    border-radius:0 0 10px 10px;
+}
+#section__3 .carousel-control-prev, #section__3 .carousel-control-next{
+    width:auto;
+}
+#section__3 .carousel-control-prev-icon, #section__3 .carousel-control-next-icon{
+    border-radius:50%;
+    border:1px solid var(--bs-black);
+    background-image:url(../images/rightarrow.png);
+    color:var(--bs-black);
+    background-size:15px 15px;
+}
+#section__3 .carousel-control-prev-icon{
+    transform:rotate(180deg);
+}
+/* section 4 css */
+#section__4{
+    background-image:url(../images/blue_geometric_sports_football_banner.png);
+    padding:90px 0;
+}
+#section__4 h2{
+    color:var(--bs-white);
+    margin-bottom:50px;
+}
+.video--wrap iframe{
+    border-radius:15px;
+}
+.steps li{
+    margin-bottom:50px;
+}
+.steps .number{
+   color:#FBFF4D;
+   font-size:32px;
+   line-height:normal;
+   margin-right:10px;
+}
+.steps .title{
+    font-size:24px;
+    color:var(--bs-white);
+}
+.steps .title__sub{
+    font-size:12px;
+    color:var(--bs-white);
+}
+/* section 5 css */
+#section__5{
+    background-image:url(../images/black_geometric_sports_football_banner.png);
+    padding:90px 40px 0;
+}
+#section__5 h2{
+    color:var(--bs-black);
+    margin-bottom:50px;
+}
+#section__5 .section__left img{
+    width:500px;
+    height:500px;
+}
+.getapp li{
+    margin-bottom:50px;
+}
+.getapp .imgicon{
+    width:80px;
+    height:80px;
+    background-color:#F5F5F5;
+    box-shadow:0px 12px 24px rgba(0, 0, 0, 0.25);
+    margin-right:20px;
+    flex:none;
+}
+.getapp .text{
+    font-size:16px;
+    color:var(--bs-black);
+}
+.os{
+    border-radius:10px;
+    background-color:var(--bs-black);
+    color:var(--bs-white);
+    padding:25px 15px;
+    margin-right:25px;
+    margin-bottom:40px;
+}
+.os:last-child{
+    margin-right:0;
+}
+.os__text{
+    margin-left:15px;
+}
+.os__text span:first-child{
+    font-size:14px;
+}
+.os__text span:nth-child(2){
+    font-size:18px;
+}
+.androidicon{
+    width:38px;
+    height:52px;
+    background-image:url(../images/android.png);
+}
+.appleicon{
+    width:41px;
+    height:46px;
+    background-image:url(../images/apple.png);
+}
+.qr__img{
+    max-width:220px;
+    width:100%;
+    height:220px;
+    margin-right:10px;
+}
+.qr__img img{
+    width:100%;
+}
+.qr__text{
+    font-size:24px;
+    color:var(--bs-black);
+}
+/* section 6 css */
+#section__6{
+    background-image:url(../images/bussiness__banner.png);
+    height:100svh;
+}
+/* section 7 css */
+#section__7{
+    padding:90px 0;
+}
+#section__7 h2.section__title{
+    margin-bottom:50px;
+}
+#section__7 .accordion-item{
+    border:none;
+    text-align:left;
+    margin-bottom:20px;
+}
+#section__7 .accordion-button{
+    font-size:20px;
+    border:3px solid #157BF2;
+    border-radius:10px;
+}
+#section__7 .accordion-button:not(.collapsed){
+    background-color:transparent;
+}
+#section__7 .accordion-button:focus{
+    box-shadow:none;
+}
+/* section 8 css */
+#section__8{
+    background-image:url(../images/green_blue_geometric_sports_football_banner_6.png);
+    padding:90px 0 110px;
+}
+#section__8 .about{
+    background-image:url(../images/rectangle.png);
+    background-position:center center;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    height:50px;
+    font-size:20px;
+    color:var(--bs-white);
+}
+.plusicon{
+    width:30px;
+    height:30px;
+    background-image:url(../images/plus.png);
+    margin-left:20px;
+}
+#section__8 .money{
+   font-size:24px;
+   color:var(--bs-white);
+   margin:15px 0 10px;
+}
+#section__8 .money:before,
+#section__8 .money:after{
+    content:'';
+    position:absolute;
+    width:150px;
+    height:2px;
+    left:18%;
+    background-color:var(--bs-white);
+}
+#section__8 .money:after{
+    left:unset;
+    right:18%;
+}
+#section__8 .payment li{
+    background-color:var(--bs-white);
+    border-radius:7px;
+    padding:10px;
+    margin:0 10px;
+}
+#section__8 .payment li img{
+    width:64px;
+}
+/* footer css */
+footer li{
+    display:inline-block;
+    padding:10px 0;
+}
+footer li a{
+    font-size:20px;
+    color:var(--bs-black);
+}
+footer li:after{
+    content:'|';
+    padding:0 10px;
+}
+footer li:last-child:after{
+    display:none;
+}
+/* signup modal css */
+#signupModal .btn-close{
+    background-color:var(--bs-white);
+    border:1px solid #D9D9D9;
+    border-radius:100%;
+    color:#D9D9D9;
+    top:20px;
+    right:20px;
+}
+#signupModal .modal-dialog{
+    max-width:372px;
+    width:100%;
+}
+#signupModal .modal-content{
+    border-radius:25px;
+    background:rgba(255, 255, 255, 0.95);
+    padding:20px;
+}
+#signupModal .modal-header{
+    border-bottom:0;
+}
+#signupModal .modal-footer{
+    border-top:0;
+}
+#signupModal .form-control{
+    border:1px solid #717171;
+    border-radius:20px;
+}
+#signupModal .btn{
+    border-radius:20px;
+    width:93px;
+    border:0;
+}
+#signupModal .cancel{
+    background-color:#F42323;
+}
+#signupModal .next{
+    background-color:linear-gradient(90deg, #014BA8 0%, #0393F4 51.04%, #0255AF 95.31%);
+}
+#signupModal h2{
+    font-size:1rem;
+}
+#signupModal p{
+    color:#717171;
+    font-size:12px;
+}
+#signupModal .sociallogin li{
+    width:40px;
+    height:40px;
+    margin:10px;
+}
+#signupModal .sociallogin li img{
+    width:100%;
+    height:100%;
+}
+
+/* thumbnail css */
+.thumbnailwrap{
+    margin:50px 0 50px;
+}
+.thumbnailwrap .section__inner{
+    padding:0 10px;
+    margin:50px 0;
+}
+.thumbnailwrap .section__inner::-webkit-scrollbar{
+    display:none;
+}
+.thumbnail{
+    height:177px;
+    margin:0 10px;
+    flex-shrink:0;
+}

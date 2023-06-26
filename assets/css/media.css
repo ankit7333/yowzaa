@@ -1,0 +1,139 @@
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    /* section 4 css */
+    .video--wrap{
+        margin-bottom:40px;
+    }
+}
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    /* common css */
+    .section{
+        padding:25px !important;
+    }
+    .section h2{
+        text-align:center;
+        margin-bottom:20px !important;
+    }
+
+    /* header css */
+    header.section{
+        padding:10px 20px !important;
+        height:auto;
+    }
+    nav .nav-item{
+        width:100%;
+        border-bottom:1px solid var(--bs-black);
+        padding:10px 0;
+    }
+    nav .nav-link{
+        color:var(--bs-black);
+    }
+    nav .registernow{
+        border-bottom:0;
+        color:var(--bs-black);
+        font-size:16px;
+    }
+    .userprofile{
+        justify-content:space-between;
+    }
+
+    /* section 2 css */
+    #section__2.section{
+        padding:0 !important;
+    }
+    /* section 3 css */
+    .downloadapp{
+        position:initial !important;
+        left:unset !important;
+        transform:inherit !important;
+        width:100%;
+        margin:20px 0;
+        flex-direction:column;
+        height:120px;
+    }
+    #section__3 .carousel-control-prev, #section__3 .carousel-control-next{
+        display:none;
+    }
+
+    /* section 5 css */
+    #section__5{
+        padding-bottom:0 !important;
+    }
+    #section__5 .section__left{
+        text-align:center;
+    }
+    /* section 6 css */
+    #section__6{
+        height:250px;
+    }
+
+    /* section 8 css */
+    #section__8 .money::after, #section__8 .money::before{
+        width:100px;
+    }
+    #section__8 .money::before{
+        left:10px;
+    }
+    #section__8 .money::after{
+        right:10px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    /* section 3 css */
+    #section__3 .carousel{
+        padding:0 50px;
+        margin-top:50px;
+    }
+    #section__3 .carousel-inner{
+        display:flex;
+    }
+    #section__3 .carousel-item{
+        display:block;
+        margin-right:0;
+        flex:0 0 calc(100% / 3);
+    }
+}
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 420px) {
+    /* header css */
+    #signupModal .modal-dialog{
+        max-width:-webkit-fill-available;
+        margin-top:20%;
+    }
+    /* section 4 css */
+    .embed-responsive-item{
+        width:100%;
+    }
+    .steps li{
+        margin-bottom:20px;
+    }
+
+    /* section 5 css */
+    #section__5 .section__left img {
+        width:300px;
+        height:300px;
+    }
+    .os--wrap, .qr{
+        flex-direction:column;
+    }
+    .os{
+        margin:0;
+        margin-bottom:20px;
+    }
+    /* section 8 css */
+    #section__8 .money::after, #section__8 .money::before{
+        display:none;
+    }
+    /* section__8 footer css */
+    footer ul.flex-row{
+        flex-direction:column !important;
+    }
+    footer li:after{
+        display:none;
+    }
+
+}
